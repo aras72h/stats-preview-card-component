@@ -7,7 +7,8 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" media="screen and (max-width: 1439px)">
+  <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1440px)">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -16,15 +17,36 @@
 </head>
 
 <body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
+  <main class="container">
+    <div class="card">
+      <picture class="hero">
+        <source class="mobile-img" media="(max-width: 1439px)" srcset="images/image-header-mobile.jpg">
+        <source class="desktop-img" media="(min-width: 1440px)" srcset="images/image-header-desktop.jpg">
+        <img src="images/image-header-mobile.jpg" alt="People" aria-hidden="true">
+      </picture>
+      <div class="card-content">
+        <h1 class="card-heading">Get <span class="violet">insights</span> that help your business grow.</h1>
+        <p class="card-body">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and
+          overall efficiency.
+        </p>
+        <div class="stats">
+          <div class="stat">
+            <h2 class="stat-body">10k+</h2>
+            <div class="stat-heading">companies</div>
+          </div>
+          <div class="stat">
+            <h2 class="stat-body">314</h2>
+            <div class="stat-heading">templates</div>
+          </div>
+          <div class="stat">
+            <h2 class="stat-body">12m+</h2>
+            <div class="stat-heading">queries</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 
 </html>
