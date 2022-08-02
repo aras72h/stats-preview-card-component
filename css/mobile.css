@@ -1,17 +1,17 @@
   @font-face {
     font-family: "Inter";
-    src: url(fonts/Inter-Bold.ttf);
+    src: url(../fonts/Inter-Bold.ttf);
     font-weight: 700;
   }
 
   @font-face {
     font-family: "Inter";
-    src: url(fonts/Inter-Regular.ttf);
+    src: url(../fonts/Inter-Regular.ttf);
   }
 
   @font-face {
     font-family: LexendDeca;
-    src: url(fonts/LexendDeca-Regular.ttf);
+    src: url(../fonts/LexendDeca-Regular.ttf);
   }
 
   :root {
